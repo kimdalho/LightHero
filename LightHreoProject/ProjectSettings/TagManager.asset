@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Weapon
+  - Object
+  - OtherPlayer
+  - Monster
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Player
+  - Object
+  - Monster
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 866042233
+    locked: 0
+  - name: Object
+    uniqueID: 122152247
+    locked: 0
+  - name: Wall
+    uniqueID: 3432984745
+    locked: 0
+  - name: Monster
+    uniqueID: 1412319029
+    locked: 0
+  - name: Player
+    uniqueID: 1233014609
+    locked: 0
