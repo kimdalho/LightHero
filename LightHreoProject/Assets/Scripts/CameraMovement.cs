@@ -18,7 +18,7 @@ public class CameraMovement : MonoBehaviour
             Destroy(this);
         }
     }
-
+      
     public void SetViewTarget(Transform targetPos)
     {
         this.target = targetPos;
