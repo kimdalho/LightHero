@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -54,6 +55,7 @@ public class DungeonManager : MonoBehaviour
             {
                 player = GameObject.Find("Player").GetComponent<PlayerController>();
                 onFinedplayer = true;
+                //Debug.log
             }        
         }
 
