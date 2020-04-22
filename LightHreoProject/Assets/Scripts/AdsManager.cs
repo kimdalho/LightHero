@@ -44,7 +44,7 @@ public class AdsManager : MonoBehaviour
     {
         if (result == ShowResult.Finished)
         {
-            GameManager.instance.Add_Money(1000);
+            UserData.getInstance().AddMoney(500);
         }
         else if (result == ShowResult.Skipped)
         {

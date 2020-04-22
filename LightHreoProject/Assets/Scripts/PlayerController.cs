@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (Mod == false)
         {
-            controller = GameManager.instance.panels[0].GetComponent<VirtualJoystick>();
+            controller = GameManager.getInstance().panels[0].GetComponent<VirtualJoystick>();
 
             MovePos.PosX = controller.inputVector.x;
             MovePos.PosY = controller.inputVector.y;
@@ -88,7 +88,7 @@ public class PlayerController : MonoBehaviour
         
       
 
-            MoveController(GameManager.instance.MoveMod);
+            MoveController(GameManager.getInstance().MoveMod);
             if (rb2d.velocity.magnitude > 0)
             {
                 animator.SetBool("Mb_Forwrd", true);

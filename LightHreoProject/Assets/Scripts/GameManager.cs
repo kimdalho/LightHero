@@ -4,10 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
-
-public class GameManager : MonoBehaviour
+using LitJson;
+using System.IO;
+using UnityEngine.Android;
+public class GameManager 
 {
-
+        //GameManager.instance
+        //GameManager.getInstance()
     public enum e_Itemtype
     {
         헬멧 = 0,
@@ -16,9 +19,9 @@ public class GameManager : MonoBehaviour
         장신구 = 3,
     }
     #region 변수선언
-    static public GameManager instance = null;
+
     [Header("CanversPanels")]
-    private string gameVersion = "1";
+
     public GameObject ButtonPanel;
     public GameObject LoginPanel;
     public GameObject[] panels = new GameObject[5];
@@ -46,12 +49,8 @@ public class GameManager : MonoBehaviour
     public GameObject Tmp_Attack;
     public GameObject Tmp_Defenc;
     public GameObject Tmp_Speed;
-    public int m_money;
-    public int m_atack;
-    public int m_defenc;
-    public float m_speed;
     [Header("InventoryPanel")]
-    public GameObject[] EquipSlot;
+    public GameObject[] m_EquipSlot = new GameObject[4];
     [Header("ItemShopPanel")]
     public Image ItemdescriptionPanel;
     public Image Story_Panel;
@@ -61,120 +60,117 @@ public class GameManager : MonoBehaviour
     public Text Sp_ItemNameText;
     public Image Sp_ItemImg;
     public Text Sp_ItemStoryText;
+
+    [Header("staysters")]
+    public Text PrdcPriceText;
+    public Text PrdcAtkText;
+    public Text PrdcDefText;
+    public Text PrdcSpeedText;
+
     [Header("Member variable")]
     public GameObject Btn_WallController;
     public int Filed_MonsterCount;
     public bool MoveMod;
     public TouchScreenKeyboard keyboard { get; private set; }
     #endregion
+    #region GetterORSetter
     public int Getm_money()
     {
-        return this.m_money;
+        return UserData.getInstance().m_money;
     }
-    public int Setm_money(int addm_money)
+    public int SetMoney(int addm_money)
     {
-        this.m_money = addm_money;
-        return this.m_money;
+        UserData.getInstance().m_money = addm_money;
+        Tmp_money.GetComponent<TextMeshProUGUI>().text = "Money" + UserData.getInstance().m_money;
+        return UserData.getInstance().m_money;
     }
-    public int Add_Money(int value)
+    public void SetAttack(int value)
     {
-        this.m_money += value;
-        Tmp_money.GetComponent<TextMeshProUGUI>().text = m_money.ToString();
-        return this.m_money;
-    }
-    public void Add_Attack(int value)
-    {
-        this.m_atack += value;
-        // comma(string num)
-        Tmp_Attack.GetComponent<TextMeshProUGUI>().text = m_atack.ToString();
+        UserData.getInstance().m_atack = value;
+        Tmp_Attack.GetComponent<TextMeshProUGUI>().text = UserData.getInstance().m_atack.ToString();
 
     }
-    public int Add_Defenc(int value)
+    public int SetDefenc(int value)
     {
-        this.m_defenc += value;
-        // comma(string num)
-        Tmp_Defenc.GetComponent<TextMeshProUGUI>().text = m_defenc.ToString();
-        return this.m_defenc;
+        UserData.getInstance().m_defenc = value;
+        Tmp_Defenc.GetComponent<TextMeshProUGUI>().text = UserData.getInstance().m_defenc.ToString();
+        return UserData.getInstance().m_defenc;
     }
-    public float Add_Speed(float value)
+    public float SetSpeed(float value)
     {
-        this.m_speed += value;
-        // comma(string num)
-        Tmp_Speed.GetComponent<TextMeshProUGUI>().text = m_speed.ToString();
-        return this.m_speed;
+        UserData.getInstance().m_speed = value;
+
+        Tmp_Speed.GetComponent<TextMeshProUGUI>().text = UserData.getInstance().m_speed.ToString();
+        return UserData.getInstance().m_speed;
     }
-    private void Awake()
+
+    public void AddAttack(int value)
+    {
+        UserData.getInstance().m_atack += value;
+        Tmp_Attack.GetComponent<TextMeshProUGUI>().text = UserData.getInstance().m_atack.ToString();
+
+    }
+    public int AddDefenc(int value)
+    {
+        UserData.getInstance().m_defenc += value;
+        Tmp_Defenc.GetComponent<TextMeshProUGUI>().text = UserData.getInstance().m_defenc.ToString();
+        return UserData.getInstance().m_defenc;
+    }
+    public float AddSpeed(float value)
+    {
+        UserData.getInstance().m_speed += value;
+
+        Tmp_Speed.GetComponent<TextMeshProUGUI>().text = UserData.getInstance().m_speed.ToString();
+        return UserData.getInstance().m_speed;
+    }
+
+    #endregion
+    #region Event
+    private static GameManager instance;
+
+    public static GameManager getInstance()
     {
         if (instance == null)
         {
-            instance = this;
+            instance = new GameManager();
         }
+        return instance;
+    }
+    public bool OnRendering_Items = false;
+    public void GameSetting()
+    {
+            Application.targetFrameRate = 30;
+            MainCanversInitalize();
+
+        if (OnRendering_Items == true)
+        {
+            //Connect();
+            SwichpanelsView(e_Panel.커넥션);
+            return;
+        }
+
         else
         {
-            Destroy(instance);
+            //############여긴 한번만###########
+            DataBase.getInstance().ItemListCall();
+            for (int i = 0; i < DataBase.getInstance().itemList.Count; i++)
+            {
+                GameManager.getInstance().ItemCSVRender(i);
+            }
+            //###########여긴 한번만###############
+            OnRendering_Items = true;
+            SwichpanelsView(e_Panel.커넥션);
+            //   SetMoney(99999);
         }
-        DontDestroyOnLoad(gameObject);
-    }
-    private void Start()
-    {
-        Application.targetFrameRate = 30;
-        MainCanversInitalize();
-        GameManager.instance.Add_Attack(30);
-        GameManager.instance.Add_Defenc(10);
-        GameManager.instance.Add_Speed(10);
-
-        ItemDataBase.getInstance().ItemListCall();
         
-        for (int  i = 0; i < ItemDataBase.getInstance().itemList.Count; i++)
-        {
-            ItemCSVRender(i);
-        }
-        DisplayItem();
-
         if (Btn_WallController == null)
-            return;
-    
+                return;
+        
     }
-    private string comma(string num)
+    #endregion
+    public void LoadPanel(int valsue)
     {
-        int len, point;
-        string str;
-
-        num = num + "";
-        point = num.Length % 3;
-        len = num.Length;
-
-        str = num.Substring(0, point);
-        while (point < len)
-        {
-            if (str != "") str += ",";
-            str += num.Substring(point, point + 3);
-            point += 3;
-        }
-
-        return str;
-
-    }
-    public void LoadShop()
-    {
-        SwichpanelsView(e_Panel.상점);
-    }
-    public void LoadInventory()
-    {
-        SwichpanelsView(e_Panel.인벤창);
-    }
-    public void LoadDisconect()
-    {
-        SwichpanelsView(e_Panel.커넥션);
-    }
-    public void TestFuntion()
-    {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            keyboard = TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default, true, true, true, true);
-
-            keyboard.active = true;
-        }
+        SwichpanelsView((e_Panel)valsue);
     }
     #region 메인커넥션
     private void MainCanversInitalize()
@@ -183,7 +179,9 @@ public class GameManager : MonoBehaviour
         {
             return;
         }
+
         GameObject mainCvs = GameObject.Find("MainCanvers");
+
         for (int i = 0; i < mainCvs.transform.childCount; i++)
         {
             string compo_name = mainCvs.transform.GetChild(i).name;
@@ -224,11 +222,7 @@ public class GameManager : MonoBehaviour
 
         ShopPanelInit();
 
-        SwichpanelsView(e_Panel.커넥션);
-
-       
-
-     
+        // SwichpanelsView(e_Panel.커넥션);
     }
     public void ItemShopInitalize()
     {
@@ -237,8 +231,8 @@ public class GameManager : MonoBehaviour
         //public Text Sp_ItemName;
         //public Image Sp_ItemImg;
         //public Text Sp_ItemStoryText;
-
-  
+        //GameObject    TgItemStatursPanel
+        GameObject TgItemStatursPanel = null;
 
         for (int i = 0; i < ItemdescriptionPanel.transform.childCount; i++)
         {
@@ -251,6 +245,10 @@ public class GameManager : MonoBehaviour
                     Story_Panel = ItemdescriptionPanel.transform.GetChild(i).gameObject.GetComponent<Image>();
                     break;
 
+                case "TgItemStatursPanel":
+                    TgItemStatursPanel = ItemdescriptionPanel.transform.GetChild(i).gameObject;
+                    break;
+
                 case "ItemBuyBtn":
                     ItemBuyBtn = ItemdescriptionPanel.transform.GetChild(i).gameObject;
                     break;
@@ -259,6 +257,29 @@ public class GameManager : MonoBehaviour
                     ItemUseBtn = ItemdescriptionPanel.transform.GetChild(i).gameObject;
                     break;
 
+            }
+
+        }
+
+        for (int i = 0; i < TgItemStatursPanel.transform.childCount; i++)
+        {
+            string compo_name = TgItemStatursPanel.transform.GetChild(i).name;
+
+            switch (compo_name)
+            {
+
+                case "PrdcPriceText":
+                    PrdcPriceText = TgItemStatursPanel.transform.GetChild(i).gameObject.GetComponent<Text>();
+                    break;
+                case "PrdcAtkText":
+                    PrdcAtkText = TgItemStatursPanel.transform.GetChild(i).gameObject.GetComponent<Text>();
+                    break;
+                case "PrdcDefText":
+                    PrdcDefText = TgItemStatursPanel.transform.GetChild(i).gameObject.GetComponent<Text>();
+                    break;
+                case "PrdcSpeedText":
+                    PrdcSpeedText = TgItemStatursPanel.transform.GetChild(i).gameObject.GetComponent<Text>();
+                    break;
             }
         }
 
@@ -286,7 +307,7 @@ public class GameManager : MonoBehaviour
 
 
     }
-    private void SwichpanelsView(e_Panel target_panels)
+    public void SwichpanelsView(e_Panel target_panels)
     {
         this.staturs = target_panels;
         switch (staturs)
@@ -334,7 +355,7 @@ public class GameManager : MonoBehaviour
                     panels[(int)e_Panel.로비].SetActive(true);
 
                     ItemdescriptionPanel.gameObject.SetActive(false);
-              
+
                     break;
                 }
 
@@ -351,6 +372,7 @@ public class GameManager : MonoBehaviour
     {
         LoginPanel.SetActive(false);
         ButtonPanel.SetActive(true);
+        LoadData();
     }
     #endregion
     #region 디스커넥션
@@ -411,7 +433,6 @@ public class GameManager : MonoBehaviour
     public void ShopPanelInit()
     {
         ShopContent = GameObject.Find("ShopContent");
-        Debug.Log(ShopContent);
     }
 
     #endregion
@@ -428,14 +449,6 @@ public class GameManager : MonoBehaviour
 
     #endregion
     #region 로비
-
-    public void ShowRooms()
-    {
-        SwichpanelsView(e_Panel.로비);
-    }
-
-
-
     private void LobbyPanelInitalize() //// MainCanversInitalize()에서 호출 사용 다른곳에서 사용x
     {
         GameObject RoomControllPanel = null;
@@ -489,6 +502,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
+        //여기를 모르겠다는건가
 
         for (int i = 0; i < panels[(int)e_Panel.상태창].transform.childCount; i++)
         {
@@ -516,9 +530,315 @@ public class GameManager : MonoBehaviour
     }
 
     #endregion
-    public void CreateRoom()
+    public void LoadBuylist()
     {
-        StartCoroutine(LoadScene(1));
+        if (using_Target == null)
+        {
+            Debug.Log("대상이 존재하지않는다");
+            return;
+        }
+        ItemObject item = using_Target.GetComponent<ItemObject>();
+        //#################대상 아이템 좌표 변경 #######################
+        using_Target.gameObject.transform.SetParent(InventoryContent.transform);
+        Debug.Log("좌표를변경한다" + using_Target);
+        //#################대상 아이템 좌표 변경 #######################
+
+        //#################대상 UserData List추가 #######################
+        UserData.getInstance().BuyItemList.Add(item.id);
+        UserData.getInstance().AllWirteUserData();
+        using_Target = null;
+        //#################대상 UserData List추가 #######################
+
+    }
+    public void Buy()
+    {
+        if (using_Target == null) return;
+        ItemObject item = using_Target.GetComponent<ItemObject>();
+        //#################머니 비교 #######################
+        //#################머니 비교 #######################
+      
+        //#################대상 아이템 좌표 변경 #######################
+        using_Target.gameObject.transform.SetParent(InventoryContent.transform);
+        //#################대상 아이템 좌표 변경 #######################
+
+        //#################대상 UserData List추가 #######################
+        UserData.getInstance().BuyItemList.Add(item.id);
+        UserData.getInstance().AllWirteUserData();
+        using_Target = null;
+        //#################대상 UserData List추가 #######################
+
+    }
+    public void Use()
+    {
+        if (using_Target == null)
+        {
+            Debug.Log("여기?");
+            return;
+        }
+        ItemObject item = using_Target.GetComponent<ItemObject>();
+        int type = (int)DataBase.getInstance().dic_item[item.id].Type;
+        UserEquipSlot myslot = m_EquipSlot[type].GetComponent<UserEquipSlot>();
+        //########### 이전 아이템 Relese #############
+        if (myslot.ObjectBuffer != null)
+        {
+            UserData.getInstance().userEqList[type] = -1;
+            UserData.getInstance().BuyItemList.Add(myslot.id);
+            myslot.ObjectBuffer.SetActive(true);
+            myslot.ObjectBuffer = null;
+        }
+        //########### 이전 아이템 Relese #############
+
+        //########### 대상 이이템 Hide 및 주소 참조#############
+        myslot.ObjectBuffer = using_Target;
+        myslot.ObjectBuffer.SetActive(false);
+        //########### 대상 이이템 Hide 및 주소 참조#############
+
+        //########### 장착아이템 올리기#############
+        myslot.id = item.id;
+        myslot.UserStateUpdate();
+        //########### 장착아이템 올리기#############
+
+        //########### 리스트 추가 및 제거 ############
+        
+        UserData.getInstance().userEqList[type] = myslot.id;
+        UserData.getInstance().BuyItemList.Remove(myslot.id);
+
+        UserData.getInstance().AllWirteUserData();
+        //########### 리스트 추가 및 제거 ############
+
+        using_Target = null;
+    }
+    public void LoadUseList()
+    {
+        if (using_Target == null)
+        {
+            Debug.Log("여기?");
+            return;
+        }
+        ItemObject item = using_Target.GetComponent<ItemObject>();
+        int type = (int)DataBase.getInstance().dic_item[item.id].Type;
+        UserEquipSlot myslot = m_EquipSlot[type].GetComponent<UserEquipSlot>();
+        //########### 이전 아이템 Relese #############
+        if (myslot.ObjectBuffer != null)
+        {
+            UserData.getInstance().userEqList[type] = -1;
+            UserData.getInstance().BuyItemList.Add(myslot.id);
+            myslot.ObjectBuffer.SetActive(true);
+            myslot.ObjectBuffer = null;
+        }
+        //########### 이전 아이템 Relese #############
+
+        //########### 대상 이이템 Hide 및 주소 참조#############
+        myslot.ObjectBuffer = using_Target;
+        myslot.ObjectBuffer.SetActive(false);
+        //########### 대상 이이템 Hide 및 주소 참조#############
+
+        //########### 장착아이템 올리기#############
+        myslot.id = item.id;
+        myslot.UserStateUpdate();
+        //########### 장착아이템 올리기#############
+
+        //########### 리스트 추가 및 제거 ############
+
+        UserData.getInstance().userEqList[type] = myslot.id;
+        UserData.getInstance().BuyItemList.Remove(myslot.id);
+
+        UserData.getInstance().AllWirteUserData();
+        //########### 리스트 추가 및 제거 ############
+
+    }
+    public void EquipItemPanelInitalize()
+    {
+        //여기 에러
+        if (GameObject.Find("HelmetEquipSlot") == null)
+        {
+            return;
+        }
+        else 
+        {
+
+            m_EquipSlot[(int)e_Itemtype.헬멧] = GameObject.Find("HelmetEquipSlot");
+            m_EquipSlot[(int)e_Itemtype.무기] = GameObject.Find("WeaponEquipSlot");
+            m_EquipSlot[(int)e_Itemtype.방어구] = GameObject.Find("ArmorEquipSlot");
+            m_EquipSlot[(int)e_Itemtype.장신구] = GameObject.Find("AccessoryEquipSlot");
+        }
+    }
+    public GameObject using_Target;
+    public void ItemCSVRender(int number)
+    {
+        string str = DataBase.getInstance().itemList[number];
+        string[] result = str.Split(new char[] { ',' });
+
+        int id = int.Parse(result[0]);
+        int itemtype = int.Parse(result[1]);
+        Sprite img = DataBase.getInstance().ScerchImg(result[2]);
+
+        string name = result[3];
+        string story = result[4];
+        int price = int.Parse(result[5]);
+        int atk = int.Parse(result[6]);
+        int def = int.Parse(result[7]);
+        float speed = float.Parse(result[8]);
+
+        DataBase.getInstance()
+       .dic_item.Add(number, new ItemData(id, itemtype, img, name, story, price, atk, def, speed));
+    }
+    public void RemoveMyData()
+    {
+        for (int i = 0; i < UserData.getInstance().BuyItemList.Count; i++)
+        {
+            Debug.Log("현제 인밴토리 id = " + UserData.getInstance().BuyItemList[i] + "지웁니다");
+
+            UserData.getInstance().BuyItemList.RemoveAt(i);
+        }
+
+    }
+    public void ShowUserState(int atk, int def, float speed)
+    {
+
+        Tmp_Attack.GetComponent<TextMeshProUGUI>().text =
+        atk.ToString();
+        Tmp_Defenc.GetComponent<TextMeshProUGUI>().text =
+        def.ToString();
+        Tmp_Speed.GetComponent<TextMeshProUGUI>().text =
+        speed.ToString();
+    }
+    public void LoadData()
+    {
+        Debug.Log("데이터를 불러왔습니다");
+
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            Debug.Log("FOR Android");
+            if (Findfile(Application.persistentDataPath + "/UserItemData"))
+            {
+                string Jsonstring = File.ReadAllText(Application.persistentDataPath + "/UserItemData");
+                JsonData userdata = JsonMapper.ToObject(Jsonstring);
+                FillingMyItem(userdata);
+            }
+        }
+        else
+        {
+            Debug.Log("hellow Pc With Log");
+            if (Findfile(Application.dataPath + "/UserItemData"))
+            {
+                string Jsonstring = File.ReadAllText(Application.dataPath + "/UserItemData");
+                JsonData userdata = JsonMapper.ToObject(Jsonstring);
+                FillingMyItem(userdata);
+            }
+        }
+
+    }
+
+    public void LoadMoney(JsonData userdata)
+    {
+        if (userdata[0] != null)
+        {
+            SetMoney(int.Parse(userdata[0].ToString()));
+       
+        }
+    }
+
+    public void LoadMyInventroy(JsonData userdata)
+    {
+       
+        if (userdata[1] != null)
+        {
+            for (int i = 0; i < userdata[1].Count; i++)
+            {
+                Debug.Log("여기 " + GameManager.getInstance().ShopContent.transform.childCount);
+                for (int j = 0; j < GameManager.getInstance().ShopContent.transform.childCount; j++)
+                {
+                  
+                    //#########비교###################
+                    if (int.Parse(userdata[1][i].ToString()) ==
+                        GameManager.getInstance().ShopContent.transform.GetChild(j).GetComponent<ItemObject>().id)
+                    {
+                       
+                        using_Target = GameManager.getInstance().ShopContent.transform.GetChild(j).gameObject;
+
+                        LoadBuylist();
+                    }
+
+                    //#########비교###################
+
+                }
+            }
+
+        }
+        else
+        {
+            Debug.LogWarning("구매리스트가 존재하지않습니다");
+        }
+    }
+
+    public void LoadUsingItems(JsonData userdata)
+    {
+        
+        //#########장착한 아이템리스트를 샵에서 인밴으로 이동###################
+        if (userdata[2] != null)
+        {
+            for (int i = 0; i < userdata[2].Count; i++)
+            {
+                for (int j = 0; j < ShopContent.transform.childCount; j++)
+                {
+                    //#########비교###################
+
+                   // Debug.Log("비교 " + int.Parse(userdata[2][i].ToString()) + "비교 " + ShopContent.transform.GetChild(j).GetComponent<ItemObject>().id);
+                    if (int.Parse(userdata[2][i].ToString()) ==
+                    ShopContent.transform.GetChild(j).GetComponent<ItemObject>().id)
+                    {
+
+                        GameObject target = ShopContent.transform.GetChild(j).gameObject;  //Buy;
+                        target.transform.SetParent(InventoryContent.transform);
+                        UserData.getInstance().BuyItemList.Add(target.GetComponent<ItemObject>().id);
+                        using_Target = target;
+
+                        LoadUseList();
+                    }
+                    //#########비교###################
+                }
+            }
+        }
+        //#########장착한 아이템리스트를 샵에서 인밴으로 이동###################
+    }
+
+    public void FillingMyItem(JsonData userdata)
+    {
+      
+        LoadMoney(userdata);
+        Debug.Log("?");
+        LoadMyInventroy(userdata);
+        Debug.Log("next");
+        LoadUsingItems(userdata);
+
+
+    }
+    public bool Findfile(string str)
+    {
+        bool result;
+       
+
+        FileInfo fi = new FileInfo(str);
+
+        if (fi.Exists)
+        {
+
+
+            result = true;
+            return result;
+        }
+
+        else
+        {
+            result = false;
+            Debug.LogWarning("파일이 존재하지않아 새로 생성됩니다");
+            UserData.getInstance().AllWirteUserData(str);
+
+            return result;
+        }
+
+
     }
     public IEnumerator LoadScene(int SceneNumber)
     {
@@ -531,7 +851,8 @@ public class GameManager : MonoBehaviour
 
             if (asyncOper.progress >= 0.1f)
             {
-                GameManager.instance.GetComponent<AudioSource>().Stop();
+                // 여기 확인
+                //  GameManager.instance.GetComponent<AudioSource>().Stop();
             }
             if (asyncOper.progress >= 0.3f)
             {
@@ -549,102 +870,5 @@ public class GameManager : MonoBehaviour
             yield return null;
         }
     }
-    public void DengeonClear()
-    {
-        StartCoroutine(LoadScene(0));
-    }
-    public void Use()
-    {
-        if (target == null)
-            return;
-
-        Debug.Log(target);
-    switch (target.GetComponent<Item>().part)
-        {
-            case e_Itemtype.헬멧:
-                EquipSlot[(int)e_Itemtype.헬멧].transform.GetChild(0).GetComponent<Image>().sprite =
-                target.GetComponent<Item>().ItemImg.sprite;
-                target.SetActive(false);
-                break;
-            case e_Itemtype.무기:
-                EquipSlot[(int)e_Itemtype.무기].transform.GetChild(0).GetComponent<Image>().sprite =
-                target.GetComponent<Item>().ItemImg.sprite;
-                target.SetActive(false);
-                break;
-            case e_Itemtype.방어구:
-                EquipSlot[(int)e_Itemtype.방어구].transform.GetChild(0).GetComponent<Image>().sprite =
-                target.GetComponent<Item>().ItemImg.sprite;
-                target.SetActive(false);
-                break;
-            case e_Itemtype.장신구:
-                EquipSlot[(int)e_Itemtype.장신구].transform.GetChild(0).GetComponent<Image>().sprite =
-                target.GetComponent<Item>().ItemImg.sprite;
-                target.SetActive(false);
-                break;
-        }
-
-
-    }
-    public void Buy()
-    {
-
-        if (target == null)
-            return;
-
-        GameObject buyItem = Instantiate(target) as GameObject;
-
-        buyItem.transform.SetParent(GameManager.instance.InventoryContent.transform);
-        buyItem.transform.localScale = new Vector3(1, 1, 1);
-
-        Destroy(target);
-
-
-    }
-    public void EquipItemPanelInitalize()
-    {
-        EquipSlot[(int)e_Itemtype.헬멧] = GameObject.Find("HelmetEquipSlot");
-        EquipSlot[(int)e_Itemtype.무기] = GameObject.Find("WeaponEquipSlot");
-        EquipSlot[(int)e_Itemtype.방어구] = GameObject.Find("ArmorEquipSlot");
-        EquipSlot[(int)e_Itemtype.장신구] = GameObject.Find("AccessoryEquipSlot");
-    }
-    public GameObject itemPrefab;
-    public GameObject target;
-    public void ItemCSVRender(int number)
-    {
-   
-        string str = ItemDataBase.getInstance().itemList[number];
-        string[] result = str.Split(new char[] { ',' });
-
-        int id = int.Parse(result[0]);
-        int itemtype = int.Parse(result[1]);
-        string name = result[2];
-        string story = result[3];
-        int price = int.Parse(result[4]);
-        float atk = float.Parse(result[5]);
-        float def = float.Parse(result[6]);
-        float speed = float.Parse(result[7]);
-
-        ItemDataBase.getInstance()
-       .dic_item.Add(number, new ItemData(id, itemtype, name, story, price, atk, def, speed));
-    }
-    public void DisplayItem()
-    {
-        for(int i = 0; i < ItemDataBase.getInstance().itemList.Count;i++)
-        {
-            if(itemPrefab == null)
-            {
-                Debug.LogError("itemPrefab 비어있다");
-                return;
-            }
-           
-            if(ShopContent ==null)
-            {
-                Debug.LogError("ShopContent 비어있다");
-                return;
-            }
-            GameObject product = Instantiate(itemPrefab);
-            product.transform.SetParent(ShopContent.transform);
-            product.transform.localScale = new Vector3(1, 1, 1);
-        }
-    }
 }
+

@@ -174,18 +174,18 @@ public class Zombie : MonoBehaviour
         if(this.life < 0)
         {
             Destroy(gameObject);
-            GameManager.instance.Filed_MonsterCount--;
+            GameManager.getInstance().Filed_MonsterCount--;
 
-            if(GameManager.instance.Filed_MonsterCount <= 0)
+            if(GameManager.getInstance().Filed_MonsterCount <= 0)
             {
-                GameManager.instance.DengeonClear();
+              StartCoroutine(GameManager.getInstance().LoadScene(0));
             }
 
-            DungeonManager.instance.SetMonsterCountText(GameManager.instance.Filed_MonsterCount);
+            DungeonManager.instance.SetMonsterCountText(GameManager.getInstance().Filed_MonsterCount);
         }
         else
         {
-            this.life -= GameManager.instance.m_atack;
+            this.life -= UserData.getInstance().m_atack;
 
             Debug.Log("life");
         }

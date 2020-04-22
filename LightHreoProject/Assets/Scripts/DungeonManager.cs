@@ -78,11 +78,11 @@ public class DungeonManager : MonoBehaviour
             switch (compo_name)
             {
                 case "Btn_Attack":
-                    GameManager.instance.panels[(int)e_UI.공격버튼] = mainCvs.transform.GetChild(i).gameObject;
+                    GameManager.getInstance().panels[(int)e_UI.공격버튼] = mainCvs.transform.GetChild(i).gameObject;
                     Debug.Log("공격버튼 초기화 완료");
                     break;
                 case "Img_JoyStick":
-                    GameManager.instance.panels[(int)e_UI.컨트롤러] = mainCvs.transform.GetChild(i).gameObject;
+                    GameManager.getInstance().panels[(int)e_UI.컨트롤러] = mainCvs.transform.GetChild(i).gameObject;
                     Debug.Log("컨트롤러 초기화 완료");
                     break;
                 case "Nameless":
@@ -129,7 +129,7 @@ public class DungeonManager : MonoBehaviour
             }
         }
 
-        Tmp_MonstCount.GetComponent<TextMeshProUGUI>().text += GameManager.instance.Filed_MonsterCount.ToString();
+        Tmp_MonstCount.GetComponent<TextMeshProUGUI>().text += GameManager.getInstance().Filed_MonsterCount.ToString();
 
 
     }
@@ -171,9 +171,6 @@ public class DungeonManager : MonoBehaviour
         WallTiled.SetActive(_b_BrackWall);
     }
 
-
-  
-
     public Text RoomInfoText;
     public GameObject playerPrefb;
     public void SpawnPlayer()
@@ -186,6 +183,11 @@ public class DungeonManager : MonoBehaviour
         go.transform.position = playerSpawnPos;
         go.name = "Player";
         CameraMovement.instance.SetViewTarget(go.transform);
+    }
+
+    public void LoadLobby()
+    {
+        StartCoroutine(GameManager.getInstance().LoadScene(0));
     }
 
 }

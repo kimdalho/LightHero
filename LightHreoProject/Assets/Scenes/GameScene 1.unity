@@ -4907,6 +4907,7 @@ MonoBehaviour:
   Tmp_MonstCount: {fileID: 0}
   WallTiled: {fileID: 0}
   RoomInfoText: {fileID: 0}
+  playerPrefb: {fileID: 0}
 --- !u!1 &1628178367
 GameObject:
   m_ObjectHideFlags: 0
@@ -5146,7 +5147,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1567975346}
-        m_MethodName: Leave
+        m_MethodName: LoadLobby
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

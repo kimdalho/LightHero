@@ -17,10 +17,10 @@ public class MonsterSpawnManager : MonoBehaviour
 
         for (int i = 0; i < rnd; i++)
         {
-            GameManager.instance.Filed_MonsterCount++;
+            GameManager.getInstance().Filed_MonsterCount++;
             GameObject go = Instantiate(MonsterPrefabs);
             go.transform.position = transform.position;
-            go.GetComponent<SpriteRenderer>().sortingOrder = GameManager.instance.Filed_MonsterCount;
+            go.GetComponent<SpriteRenderer>().sortingOrder = GameManager.getInstance().Filed_MonsterCount;
         }
     }
 

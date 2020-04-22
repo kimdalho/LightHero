@@ -14,7 +14,6 @@ public class SerchCollider : MonoBehaviour
 
     private void Start()
     {
-    
         p_Cld = GetComponent<PolygonCollider2D>();    
     }
 
