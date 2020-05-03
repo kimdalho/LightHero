@@ -1,0 +1,955 @@
+fileFormatVersion: 2
+guid: 22b04e7fc8b323949b2ed1f77f1ac513
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8700612012639821569
+    second: Aimg
+  - first:
+      213: -5957315756206885746
+    second: Bimg
+  - first:
+      213: -8663617935548244070
+    second: Cimg
+  - first:
+      213: -1846467740291971998
+    second: Dimg
+  - first:
+      213: 7574373698307666377
+    second: Eimg
+  - first:
+      213: -6082251085911089394
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_5"
+  - first:
+      213: -3654502044953707725
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_6"
+  - first:
+      213: -939402755820988854
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_7"
+  - first:
+      213: 1746239273267863427
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_8"
+  - first:
+      213: 2543567375050357842
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_9"
+  - first:
+      213: -509351810104978088
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_10"
+  - first:
+      213: 7498806374515497382
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_11"
+  - first:
+      213: 3087154059314881740
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_12"
+  - first:
+      213: -6944359858098588460
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_13"
+  - first:
+      213: 8151622755863585871
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_14"
+  - first:
+      213: -4398463319932290565
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_15"
+  - first:
+      213: 7096128726717259452
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_16"
+  - first:
+      213: -6266688144770913141
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_17"
+  - first:
+      213: 8895616728806458268
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_18"
+  - first:
+      213: -1873561440446695529
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_19"
+  - first:
+      213: 3803609762660817724
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_20"
+  - first:
+      213: 8446376792267674433
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_21"
+  - first:
+      213: -2872132095463899887
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_22"
+  - first:
+      213: -7495498834045817226
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_23"
+  - first:
+      213: -6015061694197500799
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_24"
+  - first:
+      213: -3757964838967822435
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_25"
+  - first:
+      213: -8327275712695974320
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_26"
+  - first:
+      213: 1478804155218525064
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_27"
+  - first:
+      213: -28063410280353200
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_28"
+  - first:
+      213: -6454990196503973064
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_29"
+  - first:
+      213: -6867030050031520055
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_30"
+  - first:
+      213: 4234140913732008627
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_31"
+  - first:
+      213: -5419146041782696350
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_32"
+  - first:
+      213: 105856756887795464
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_33"
+  - first:
+      213: 743289333612345945
+    second: "\u2014Pngtree\u201426 english letters az uppercase_4081535_34"
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aimg
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 3575
+        width: 482
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff06b1ae877314780800000000000000
+      internalID: -8700612012639821569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimg
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 3579
+        width: 431
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84737802ec535da0800000000000000
+      internalID: -5957315756206885746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cimg
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 3592
+        width: 537
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f91f1b365a4c780800000000000000
+      internalID: -8663617935548244070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dimg
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 3579
+        width: 504
+        height: 480
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264cdaa8f570066e0800000000000000
+      internalID: -1846467740291971998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eimg
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3546
+        width: 417
+        height: 544
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1b0b37fb49d1960800000000000000
+      internalID: 7574373698307666377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_5"
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 3552
+        width: 360
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f198dccd0879ba0800000000000000
+      internalID: -6082251085911089394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_6"
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 2886
+        width: 409
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b7893a0c9984dc0800000000000000
+      internalID: -3654502044953707725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_7"
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 2720
+        width: 386
+        height: 606
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a465446bb2296f2f0800000000000000
+      internalID: -939402755820988854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_8"
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 2869
+        width: 240
+        height: 432
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f97f7fd53eb3810800000000000000
+      internalID: 1746239273267863427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_9"
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 2620
+        width: 495
+        height: 770
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c362c1d019c4320800000000000000
+      internalID: 2543567375050357842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_10"
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 2877
+        width: 779
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8559df43a3b6ee8f0800000000000000
+      internalID: -509351810104978088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_11"
+      rect:
+        serializedVersion: 2
+        x: 3101
+        y: 2895
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a95e60daac111860800000000000000
+      internalID: 7498806374515497382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_12"
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 2864
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc46e50b246c7da20800000000000000
+      internalID: 3087154059314881740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_13"
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 2713
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d43d89708da0af90800000000000000
+      internalID: -6944359858098588460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_14"
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2125
+        width: 309
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f446d3215b1602170800000000000000
+      internalID: 8151622755863585871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_15"
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2618
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9b9d12ae485f2c0800000000000000
+      internalID: -4398463319932290565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_16"
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 2211
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe5d64ea738a7260800000000000000
+      internalID: 7096128726717259452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_17"
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 2187
+        width: 56
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c27cca5504809a0800000000000000
+      internalID: -6266688144770913141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_18"
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2038
+        width: 449
+        height: 562
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93088aa844937b70800000000000000
+      internalID: 8895616728806458268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_19"
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 2125
+        width: 401
+        height: 490
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7973e45ebc5cff5e0800000000000000
+      internalID: -1873561440446695529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_20"
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 2174
+        width: 404
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b1b9f3de229c430800000000000000
+      internalID: 3803609762660817724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_21"
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 2089
+        width: 460
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143d73611fe873570800000000000000
+      internalID: 8446376792267674433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_22"
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 2180
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d30ed83132428d0800000000000000
+      internalID: -2872132095463899887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_23"
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1365
+        width: 336
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e2856f583aaf790800000000000000
+      internalID: -7495498834045817226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_24"
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1303
+        width: 450
+        height: 555
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1847c4f1245368ca0800000000000000
+      internalID: -6015061694197500799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_25"
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 1283
+        width: 377
+        height: 611
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d973ae6b3e609dbc0800000000000000
+      internalID: -3757964838967822435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_26"
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 1310
+        width: 420
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056c40eebd29f6c80800000000000000
+      internalID: -8327275712695974320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_27"
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 1370
+        width: 415
+        height: 455
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bfb2c4b84c58410800000000000000
+      internalID: 1478804155218525064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_28"
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 482
+        width: 361
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052bd0f1a7c4c9ff0800000000000000
+      internalID: -28063410280353200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_29"
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 533
+        width: 497
+        height: 455
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83370c4cd944b66a0800000000000000
+      internalID: -6454990196503973064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_30"
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 448
+        width: 387
+        height: 496
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c630f57d8863b0a0800000000000000
+      internalID: -6867030050031520055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_31"
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 302
+        width: 406
+        height: 764
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bab1f34ab0b2ca30800000000000000
+      internalID: 4234140913732008627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_32"
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 520
+        width: 466
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266049903635bc4b0800000000000000
+      internalID: -5419146041782696350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_33"
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 517
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8073f57d824187100800000000000000
+      internalID: 105856756887795464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u201426 english letters az uppercase_4081535_34"
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 517
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95afc47f5b1b05a00800000000000000
+      internalID: 743289333612345945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

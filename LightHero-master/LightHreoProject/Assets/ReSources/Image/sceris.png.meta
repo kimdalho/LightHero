@@ -1,0 +1,5515 @@
+fileFormatVersion: 2
+guid: 988bfd25499898c4a8a4f9f472f9442f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7532191116959819997
+    second: cell0
+  - first:
+      213: -3058549573569452261
+    second: cell1
+  - first:
+      213: 7638460098758529435
+    second: cell2
+  - first:
+      213: -7762195185260443886
+    second: sceris_3
+  - first:
+      213: 4488345735014523195
+    second: sceris_4
+  - first:
+      213: 4082343447935056451
+    second: sceris_5
+  - first:
+      213: -7457975466197789943
+    second: sceris_6
+  - first:
+      213: 6607055354448533148
+    second: sceris_7
+  - first:
+      213: 3138937885468228706
+    second: sceris_8
+  - first:
+      213: -3420690254170713346
+    second: sceris_9
+  - first:
+      213: 8703280430977254111
+    second: sceris_10
+  - first:
+      213: -8900094154333722751
+    second: sceris_11
+  - first:
+      213: -2818836844928520065
+    second: sceris_12
+  - first:
+      213: -3340688388070976
+    second: sceris_13
+  - first:
+      213: 2031455512355898144
+    second: sceris_14
+  - first:
+      213: 3205986697054227583
+    second: sceris_15
+  - first:
+      213: -297049638238488250
+    second: sceris_16
+  - first:
+      213: 9079918207076879675
+    second: sceris_17
+  - first:
+      213: 6836709984146500478
+    second: sceris_18
+  - first:
+      213: 5082632874555300709
+    second: sceris_19
+  - first:
+      213: 6511343097245457224
+    second: sceris_20
+  - first:
+      213: 6367409317189308255
+    second: sceris_21
+  - first:
+      213: 4850669127324548690
+    second: sceris_22
+  - first:
+      213: -3422477962282010101
+    second: sceris_23
+  - first:
+      213: 1801778239798771912
+    second: sceris_24
+  - first:
+      213: 4860152967766549732
+    second: sceris_25
+  - first:
+      213: -6579961772991560902
+    second: sceris_26
+  - first:
+      213: -4797747552276095814
+    second: sceris_27
+  - first:
+      213: -2235324075894530099
+    second: sceris_28
+  - first:
+      213: -5854760874339597501
+    second: sceris_29
+  - first:
+      213: -3441895478917992238
+    second: sceris_30
+  - first:
+      213: 4693954466092480195
+    second: sceris_31
+  - first:
+      213: -1977857306209357625
+    second: sceris_32
+  - first:
+      213: -930341686590356216
+    second: sceris_33
+  - first:
+      213: -1765137463687174080
+    second: sceris_34
+  - first:
+      213: -8645062351089374489
+    second: sceris_35
+  - first:
+      213: -4546375265150525811
+    second: sceris_36
+  - first:
+      213: 2076753841053414649
+    second: sceris_37
+  - first:
+      213: -2005523296563826102
+    second: sceris_38
+  - first:
+      213: 4776931095830433777
+    second: sceris_39
+  - first:
+      213: -6247892747830393508
+    second: sceris_40
+  - first:
+      213: -3573155903470503072
+    second: sceris_41
+  - first:
+      213: 4325970049048995964
+    second: sceris_42
+  - first:
+      213: 547604156692752823
+    second: sceris_43
+  - first:
+      213: 388094688392317174
+    second: sceris_44
+  - first:
+      213: 6422299874899991601
+    second: sceris_45
+  - first:
+      213: 136781065546345074
+    second: sceris_46
+  - first:
+      213: 8163997443706070435
+    second: sceris_47
+  - first:
+      213: 7867484234009983797
+    second: sceris_48
+  - first:
+      213: 163731055652191504
+    second: sceris_49
+  - first:
+      213: 3625395247672503134
+    second: sceris_50
+  - first:
+      213: -359337154451775978
+    second: cell3
+  - first:
+      213: 7979417529210036738
+    second: cell4
+  - first:
+      213: -4791158938723973714
+    second: cell5
+  - first:
+      213: 3215358681120193045
+    second: sceris_54
+  - first:
+      213: 6154931298415418707
+    second: sceris_55
+  - first:
+      213: 8514101970065024908
+    second: sceris_56
+  - first:
+      213: 8511597487057197125
+    second: sceris_57
+  - first:
+      213: 6108395638689770252
+    second: sceris_58
+  - first:
+      213: -1882452072521090335
+    second: sceris_59
+  - first:
+      213: -5606433001274279572
+    second: sceris_60
+  - first:
+      213: -3992964541212441512
+    second: sceris_61
+  - first:
+      213: -7580171917833004869
+    second: sceris_62
+  - first:
+      213: 8812524030524310249
+    second: sceris_63
+  - first:
+      213: 8656826485881882974
+    second: sceris_64
+  - first:
+      213: -6711316359060332902
+    second: sceris_65
+  - first:
+      213: 8205063043507223066
+    second: sceris_66
+  - first:
+      213: -2196660300740614299
+    second: sceris_67
+  - first:
+      213: 182296924900339340
+    second: sceris_68
+  - first:
+      213: -1408029263114602552
+    second: sceris_69
+  - first:
+      213: 3331536613313403383
+    second: sceris_70
+  - first:
+      213: 1720676009610168117
+    second: sceris_71
+  - first:
+      213: 8139648754983869042
+    second: sceris_72
+  - first:
+      213: 4548571482579873544
+    second: sceris_73
+  - first:
+      213: 9170579560637946522
+    second: sceris_74
+  - first:
+      213: 1627247430643024542
+    second: sceris_75
+  - first:
+      213: 7602312151213579340
+    second: sceris_76
+  - first:
+      213: 1154649140248877042
+    second: sceris_77
+  - first:
+      213: -4728210653737777431
+    second: sceris_78
+  - first:
+      213: -5314612039074963709
+    second: sceris_79
+  - first:
+      213: -5528227036616988717
+    second: sceris_80
+  - first:
+      213: -2031909658050778229
+    second: sceris_81
+  - first:
+      213: 5140097462573537893
+    second: sceris_82
+  - first:
+      213: 6559643375072702186
+    second: sceris_83
+  - first:
+      213: 4920126251551284603
+    second: sceris_84
+  - first:
+      213: -8436126221544257949
+    second: sceris_85
+  - first:
+      213: 2914329745828508469
+    second: sceris_86
+  - first:
+      213: 3177769977439226267
+    second: sceris_87
+  - first:
+      213: -3104171857678329004
+    second: sceris_88
+  - first:
+      213: -7724556464398112731
+    second: sceris_89
+  - first:
+      213: -2441931583952801672
+    second: sceris_90
+  - first:
+      213: -5088260889430169445
+    second: sceris_91
+  - first:
+      213: 6494054479953245058
+    second: sceris_92
+  - first:
+      213: 2734413787788892034
+    second: sceris_93
+  - first:
+      213: -5310375593837441498
+    second: sceris_94
+  - first:
+      213: -6385398821215936799
+    second: sceris_95
+  - first:
+      213: 4469198331991601249
+    second: sceris_96
+  - first:
+      213: -2904261297347168663
+    second: sceris_97
+  - first:
+      213: -6493693598452425176
+    second: sceris_98
+  - first:
+      213: 7042793079639158084
+    second: sceris_99
+  - first:
+      213: 1870047674088869202
+    second: sceris_100
+  - first:
+      213: 4868469111039973642
+    second: sceris_101
+  - first:
+      213: -2912162585807182380
+    second: sceris_102
+  - first:
+      213: -1829097312980834548
+    second: cell6
+  - first:
+      213: 8322995454060340994
+    second: cell7
+  - first:
+      213: 5382597158420148825
+    second: cell8
+  - first:
+      213: -7160891176006550511
+    second: sceris_106
+  - first:
+      213: -3206978480909034320
+    second: sceris_107
+  - first:
+      213: -6028631305272588420
+    second: sceris_108
+  - first:
+      213: -1029825122722365857
+    second: sceris_109
+  - first:
+      213: -7726273921953383497
+    second: sceris_110
+  - first:
+      213: -8157841788965280135
+    second: sceris_111
+  - first:
+      213: -3039276300477195202
+    second: sceris_112
+  - first:
+      213: -1203223237498047605
+    second: sceris_113
+  - first:
+      213: -4543721527495100940
+    second: sceris_114
+  - first:
+      213: 292975706114852259
+    second: sceris_115
+  - first:
+      213: -4754125812772947199
+    second: sceris_116
+  - first:
+      213: -9184502582506214491
+    second: sceris_117
+  - first:
+      213: 3377171198194636683
+    second: sceris_118
+  - first:
+      213: -3123037420644525758
+    second: sceris_119
+  - first:
+      213: 7280467187556603348
+    second: sceris_120
+  - first:
+      213: 8010234348745980120
+    second: sceris_121
+  - first:
+      213: 5191142973874752190
+    second: sceris_122
+  - first:
+      213: 8163371612527090573
+    second: sceris_123
+  - first:
+      213: -5847460673209275494
+    second: sceris_124
+  - first:
+      213: 5479598845706940037
+    second: sceris_125
+  - first:
+      213: 1531833675115218124
+    second: sceris_126
+  - first:
+      213: 2841986556204302576
+    second: sceris_127
+  - first:
+      213: 3735888174066299155
+    second: sceris_128
+  - first:
+      213: 3741078141298440960
+    second: sceris_129
+  - first:
+      213: -8666467243775162493
+    second: sceris_130
+  - first:
+      213: 6598775001938668844
+    second: sceris_131
+  - first:
+      213: 6400911288218050213
+    second: sceris_132
+  - first:
+      213: 677277409735537464
+    second: sceris_133
+  - first:
+      213: 1288405331150051056
+    second: sceris_134
+  - first:
+      213: 24374172722447777
+    second: sceris_135
+  - first:
+      213: -5201146840515018025
+    second: sceris_136
+  - first:
+      213: -5620166154940821430
+    second: sceris_137
+  - first:
+      213: -6886916333654099368
+    second: sceris_138
+  - first:
+      213: 4592481492872891630
+    second: sceris_139
+  - first:
+      213: -5545327839012777136
+    second: sceris_140
+  - first:
+      213: -6734767191677968905
+    second: sceris_141
+  - first:
+      213: 2024165391594107187
+    second: sceris_142
+  - first:
+      213: 1724086597838050676
+    second: sceris_143
+  - first:
+      213: 7997545949109538417
+    second: sceris_144
+  - first:
+      213: 5852818606691827815
+    second: sceris_145
+  - first:
+      213: -3150102379491482281
+    second: sceris_146
+  - first:
+      213: -3987131362482324014
+    second: sceris_147
+  - first:
+      213: -2755090991928932728
+    second: sceris_148
+  - first:
+      213: 3098028747948806169
+    second: sceris_149
+  - first:
+      213: -4772196389581310376
+    second: sceris_150
+  - first:
+      213: 1166883622627385792
+    second: sceris_151
+  - first:
+      213: 3508414621527408069
+    second: sceris_152
+  - first:
+      213: 8599563421349611357
+    second: sceris_153
+  - first:
+      213: -512246324964539710
+    second: sceris_154
+  - first:
+      213: 869116668755600998
+    second: sceris_155
+  - first:
+      213: -3301006586240941719
+    second: sceris_156
+  - first:
+      213: -7544343103520522084
+    second: sceris_157
+  - first:
+      213: 3046998221372452157
+    second: sceris_158
+  - first:
+      213: -5188751839807774489
+    second: sceris_159
+  - first:
+      213: -3715813103118626259
+    second: sceris_160
+  - first:
+      213: 4395958572376943005
+    second: sceris_161
+  - first:
+      213: 5384948347558658713
+    second: sceris_162
+  - first:
+      213: -5568175496199928159
+    second: sceris_163
+  - first:
+      213: -4717557397056150037
+    second: sceris_164
+  - first:
+      213: 2286316978953588279
+    second: sceris_165
+  - first:
+      213: -619290830467356912
+    second: sceris_166
+  - first:
+      213: 850906861471892543
+    second: cell9
+  - first:
+      213: 8833815292035559759
+    second: sceris_168
+  - first:
+      213: 6256991115994362756
+    second: cell10
+  - first:
+      213: -6713784310702741320
+    second: cell11
+  - first:
+      213: 3700523973073424077
+    second: sceris_171
+  - first:
+      213: -3912243622691823773
+    second: sceris_172
+  - first:
+      213: 6753402449974492597
+    second: sceris_173
+  - first:
+      213: 4948925529932064465
+    second: sceris_174
+  - first:
+      213: 8356702774530310752
+    second: sceris_175
+  - first:
+      213: -1213185020240973181
+    second: sceris_176
+  - first:
+      213: 4786317500232554924
+    second: sceris_177
+  - first:
+      213: -8481647330362701014
+    second: sceris_178
+  - first:
+      213: -5327284214810077427
+    second: sceris_179
+  - first:
+      213: -7909089407571158639
+    second: sceris_180
+  - first:
+      213: -8170786674571044757
+    second: sceris_181
+  - first:
+      213: -6586700880953387309
+    second: sceris_182
+  - first:
+      213: 5542342741636387852
+    second: sceris_183
+  - first:
+      213: 3726175048373801763
+    second: sceris_184
+  - first:
+      213: 6391913707218618688
+    second: sceris_185
+  - first:
+      213: -2956830076561320980
+    second: sceris_186
+  - first:
+      213: 4193908335664378470
+    second: sceris_187
+  - first:
+      213: 6311883496572726317
+    second: sceris_188
+  - first:
+      213: 7851922128323098334
+    second: sceris_189
+  - first:
+      213: 189945227969374212
+    second: sceris_190
+  - first:
+      213: -353525129368732443
+    second: sceris_191
+  - first:
+      213: 3825105644341130615
+    second: sceris_192
+  - first:
+      213: -4238409595279169477
+    second: sceris_193
+  - first:
+      213: 1392724459650448827
+    second: sceris_194
+  - first:
+      213: -1142558276989388683
+    second: sceris_195
+  - first:
+      213: 5236104524184698200
+    second: sceris_196
+  - first:
+      213: 7294559978897049168
+    second: sceris_197
+  - first:
+      213: 4914806489204635686
+    second: sceris_198
+  - first:
+      213: 2393481534907710632
+    second: sceris_199
+  - first:
+      213: 5200538693060632563
+    second: sceris_200
+  - first:
+      213: -3345762515547098551
+    second: sceris_201
+  - first:
+      213: -6362165523499606192
+    second: sceris_202
+  - first:
+      213: -182169863235303945
+    second: sceris_203
+  - first:
+      213: 6856002864355690145
+    second: sceris_204
+  - first:
+      213: -1378473628700518801
+    second: sceris_205
+  - first:
+      213: -4576884262937013081
+    second: sceris_206
+  - first:
+      213: 4650707359643380015
+    second: sceris_207
+  - first:
+      213: -7542847522536553976
+    second: sceris_208
+  - first:
+      213: 3323800370872194510
+    second: sceris_209
+  - first:
+      213: 1519224751688943045
+    second: sceris_210
+  - first:
+      213: 3991644395589374166
+    second: sceris_211
+  - first:
+      213: 1914005016980941225
+    second: sceris_212
+  - first:
+      213: 2087442033579239582
+    second: sceris_213
+  - first:
+      213: 3538851220718195142
+    second: sceris_214
+  - first:
+      213: -7091711245685122607
+    second: sceris_215
+  - first:
+      213: -7795185176449885306
+    second: sceris_216
+  - first:
+      213: -7235239483023819165
+    second: sceris_217
+  - first:
+      213: -8021107141090411821
+    second: sceris_218
+  - first:
+      213: -4076299695929911472
+    second: sceris_219
+  - first:
+      213: -660601401489847248
+    second: sceris_220
+  - first:
+      213: -8823869779949398167
+    second: sceris_221
+  - first:
+      213: -4102833516140959636
+    second: sceris_222
+  - first:
+      213: -89123133875219638
+    second: sceris_223
+  - first:
+      213: -1107755859498769154
+    second: sceris_224
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cell0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1027
+        width: 167
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd82eb2e9e7b78860800000000000000
+      internalID: 7532191116959819997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1027
+        width: 167
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1768732e59dd85d0800000000000000
+      internalID: -3058549573569452261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell2
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1027
+        width: 167
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b915f715df2410a60800000000000000
+      internalID: 7638460098758529435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_3
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1018
+        width: 203
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217cd49da94274490800000000000000
+      internalID: -7762195185260443886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_4
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1018
+        width: 176
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b312eac6aaec94e30800000000000000
+      internalID: 4488345735014523195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_5
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1193
+        width: 77
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34aff499cb567a830800000000000000
+      internalID: 4082343447935056451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_6
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1018
+        width: 209
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903d3b9d3d2ff7890800000000000000
+      internalID: -7457975466197789943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_7
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 994
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c965f35d6d9f0bb50800000000000000
+      internalID: 6607055354448533148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 994
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c7953406fbf8b20800000000000000
+      internalID: 3138937885468228706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_9
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 994
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2938166544780d0800000000000000
+      internalID: -3420690254170713346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_10
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 994
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd20205a07348c870800000000000000
+      internalID: 8703280430977254111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_11
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 994
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187686775838c7480800000000000000
+      internalID: -8900094154333722751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_12
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 994
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70b04a03da71e8d0800000000000000
+      internalID: -2818836844928520065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_13
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 994
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1e25f59a124fff0800000000000000
+      internalID: -3340688388070976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_14
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 994
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0238bfe760e213c10800000000000000
+      internalID: 2031455512355898144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_15
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 994
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c8b883ae3fd7c20800000000000000
+      internalID: 3205986697054227583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_16
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 991
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649f2288deaa0ebf0800000000000000
+      internalID: -297049638238488250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_17
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 991
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d4b6a7089520e70800000000000000
+      internalID: 9079918207076879675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_18
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 991
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b2b65128fd0ee50800000000000000
+      internalID: 6836709984146500478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_19
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 991
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b5793aba3298640800000000000000
+      internalID: 5082632874555300709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_20
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 991
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bd1026c00fc5a50800000000000000
+      internalID: 6511343097245457224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_21
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 991
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fc49ab9059d5850800000000000000
+      internalID: 6367409317189308255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_22
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 991
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e32211fd9015340800000000000000
+      internalID: 4850669127324548690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_23
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 991
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0af3962d6ae080d0800000000000000
+      internalID: -3422477962282010101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_24
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 991
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c00c3b43c3310910800000000000000
+      internalID: 1801778239798771912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 976
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e429cdbf5bb27340800000000000000
+      internalID: 4860152967766549732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_26
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 979
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33403d21a74fa4a0800000000000000
+      internalID: -6579961772991560902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_27
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 976
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc5590550afa6db0800000000000000
+      internalID: -4797747552276095814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_28
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 976
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf9d62a8988af0e0800000000000000
+      internalID: -2235324075894530099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_29
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 976
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34302203106bfbea0800000000000000
+      internalID: -5854760874339597501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_30
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 976
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0f1114c4eeb30d0800000000000000
+      internalID: -3441895478917992238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_31
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 979
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6fc4f97b6442140800000000000000
+      internalID: 4693954466092480195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_32
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 976
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0faf6524d3d84e0800000000000000
+      internalID: -1977857306209357625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_33
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 976
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8054b0b4a23c613f0800000000000000
+      internalID: -930341686590356216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_34
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 976
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048213134d8f087e0800000000000000
+      internalID: -1765137463687174080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_35
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 979
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eae63e5891960880800000000000000
+      internalID: -8645062351089374489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_36
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 976
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e9419b8c708e0c0800000000000000
+      internalID: -4546375265150525811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_37
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 976
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4bae58d9c12dc10800000000000000
+      internalID: 2076753841053414649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_38
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 973
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42fa8fff23fa24e0800000000000000
+      internalID: -2005523296563826102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_39
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 976
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff8d7bb5811b4240800000000000000
+      internalID: 4776931095830433777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_40
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 973
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5584da06a60b49a0800000000000000
+      internalID: -6247892747830393508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_41
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 973
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bfc8e13a9996ec0800000000000000
+      internalID: -3573155903470503072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_42
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 973
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c786b82f6dee80c30800000000000000
+      internalID: 4325970049048995964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_43
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 973
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9e235441b799700800000000000000
+      internalID: 547604156692752823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_44
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 976
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f807d8101ac26500800000000000000
+      internalID: 388094688392317174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_45
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 973
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c137c95b7902950800000000000000
+      internalID: 6422299874899991601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_46
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 973
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27aa3e787a1f5e100800000000000000
+      internalID: 136781065546345074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_47
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 973
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a52c4b9b685c4170800000000000000
+      internalID: 8163997443706070435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_48
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 976
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bb6242a3bee2d60800000000000000
+      internalID: 7867484234009983797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_49
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 973
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d39d21780b54200800000000000000
+      internalID: 163731055652191504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_50
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 973
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ba8e305cdff4230800000000000000
+      internalID: 3625395247672503134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 703
+        width: 167
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e5d4a03c0630bf0800000000000000
+      internalID: -359337154451775978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 703
+        width: 167
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202e61f47f59cbe60800000000000000
+      internalID: 7979417529210036738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell5
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 703
+        width: 167
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea58be27452628db0800000000000000
+      internalID: -4791158938723973714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_54
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 694
+        width: 208
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a33ad4faf3f9c20800000000000000
+      internalID: 3215358681120193045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_55
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 694
+        width: 219
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d1cfad765ba6550800000000000000
+      internalID: 6154931298415418707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_56
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 694
+        width: 181
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87ed23d1aa282670800000000000000
+      internalID: 8514101970065024908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_57
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 670
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548d62f61d44f1670800000000000000
+      internalID: 8511597487057197125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_58
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 670
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b26af387165c450800000000000000
+      internalID: 6108395638689770252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_59
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 670
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eabeae40df20e5e0800000000000000
+      internalID: -1882452072521090335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_60
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 670
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69f406b3e2f132b0800000000000000
+      internalID: -5606433001274279572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_61
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 670
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8544d48c7e32698c0800000000000000
+      internalID: -3992964541212441512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_62
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 670
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb81c2d5dc1ddc690800000000000000
+      internalID: -7580171917833004869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_63
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 670
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2cefd3aef5c4a70800000000000000
+      internalID: 8812524030524310249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_64
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 670
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59ce25b2d9332870800000000000000
+      internalID: 8656826485881882974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_65
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 667
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ed0fa545d9cd2a0800000000000000
+      internalID: -6711316359060332902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_66
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 667
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1afee3ad5d3ed170800000000000000
+      internalID: 8205063043507223066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_67
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 667
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567272a4815e381e0800000000000000
+      internalID: -2196660300740614299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_68
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 667
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ea45c5616a78200800000000000000
+      internalID: 182296924900339340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_69
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 667
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7f2b268dca57ce0800000000000000
+      internalID: -1408029263114602552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_70
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 667
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9d0c806eefb3e20800000000000000
+      internalID: 3331536613313403383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_71
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 667
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537c956d6b111e710800000000000000
+      internalID: 1720676009610168117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_72
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 667
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a934dba67d5f070800000000000000
+      internalID: 8139648754983869042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_73
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 652
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f25aef9a5cf1f30800000000000000
+      internalID: 4548571482579873544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_74
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 655
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a5848c581744f70800000000000000
+      internalID: 9170579560637946522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_75
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 652
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e920529aae4259610800000000000000
+      internalID: 1627247430643024542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_76
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 652
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c98bc6f96d08960800000000000000
+      internalID: 7602312151213579340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_77
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 652
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f79eb48643260010800000000000000
+      internalID: 1154649140248877042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_78
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 652
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e60eb82675026eb0800000000000000
+      internalID: -4728210653737777431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_79
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 652
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f1ceb2284be36b0800000000000000
+      internalID: -5314612039074963709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_80
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 652
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7ebbccccac743b0800000000000000
+      internalID: -5528227036616988717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_81
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 655
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ba2387ee43dc3e0800000000000000
+      internalID: -2031909658050778229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_82
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 652
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a1597a86b455740800000000000000
+      internalID: 5140097462573537893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_83
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 652
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeee37825e8880b50800000000000000
+      internalID: 6559643375072702186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_84
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 652
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dd9c102ccc74440800000000000000
+      internalID: 4920126251551284603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_85
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 655
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3660f74e5ebdcea80800000000000000
+      internalID: -8436126221544257949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_86
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 652
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533767a8677c17820800000000000000
+      internalID: 2914329745828508469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_87
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 652
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b998a2b35f4b91c20800000000000000
+      internalID: 3177769977439226267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_88
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 649
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b915d5424cbe4d0800000000000000
+      internalID: -3104171857678329004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_89
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 652
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5286a1472dcdcc490800000000000000
+      internalID: -7724556464398112731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_90
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 649
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870bfac89248c1ed0800000000000000
+      internalID: -2441931583952801672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_91
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 649
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9860090eadd269b0800000000000000
+      internalID: -5088260889430169445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_92
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 649
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283b5ad74248f1a50800000000000000
+      internalID: 6494054479953245058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_93
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 649
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287561a3ad692f520800000000000000
+      internalID: 2734413787788892034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_94
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 649
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e4a617881cd46b0800000000000000
+      internalID: -5310375593837441498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_95
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 649
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eed9387a918267a0800000000000000
+      internalID: -6385398821215936799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_96
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 652
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160b0214438c50e30800000000000000
+      internalID: 4469198331991601249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_97
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 649
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966f4bcccbdf1b7d0800000000000000
+      internalID: -2904261297347168663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_98
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 649
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ed308c314c1e5a0800000000000000
+      internalID: -6493693598452425176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_99
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 649
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44da87addf60db160800000000000000
+      internalID: 7042793079639158084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_100
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 652
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25dcc1f937eb3f910800000000000000
+      internalID: 1870047674088869202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_101
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 649
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09df7bbcd6409340800000000000000
+      internalID: 4868469111039973642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_102
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 649
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5a7c8be8be597d0800000000000000
+      internalID: -2912162585807182380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 379
+        width: 167
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07e7205fadbd96e0800000000000000
+      internalID: -1829097312980834548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell7
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 379
+        width: 167
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2072572b448318370800000000000000
+      internalID: 8322995454060340994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell8
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 379
+        width: 186
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952f8ace893d2ba40800000000000000
+      internalID: 5382597158420148825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_106
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 366
+        width: 179
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c76ea5a676f9c90800000000000000
+      internalID: -7160891176006550511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_107
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 370
+        width: 176
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc581b10168e73d0800000000000000
+      internalID: -3206978480909034320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_108
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 566
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c778d67d4cff55ca0800000000000000
+      internalID: -6028631305272588420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_109
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 370
+        width: 217
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e3c53d18355b1f0800000000000000
+      internalID: -1029825122722365857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_110
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 346
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbba94bdc2c6c490800000000000000
+      internalID: -7726273921953383497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_111
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 346
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97623e27d1689ce80800000000000000
+      internalID: -8157841788965280135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_112
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 346
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c1bc7be4252d5d0800000000000000
+      internalID: -3039276300477195202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_113
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 346
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83fe6727da4d4fe0800000000000000
+      internalID: -1203223237498047605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_114
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 346
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5fb5b285571f0c0800000000000000
+      internalID: -4543721527495100940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_115
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 346
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a58bca3adbd01400800000000000000
+      internalID: 292975706114852259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_116
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 346
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b372003c3f50eb0800000000000000
+      internalID: -4754125812772947199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_117
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 346
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab2f0310971a8080800000000000000
+      internalID: -9184502582506214491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_118
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 343
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87521ecf4f1ede20800000000000000
+      internalID: 3377171198194636683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_119
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 343
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2491b32330eb8a4d0800000000000000
+      internalID: -3123037420644525758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_120
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 343
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5d231655a690560800000000000000
+      internalID: 7280467187556603348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_121
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 343
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8f2ac33b11a2f60800000000000000
+      internalID: 8010234348745980120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_122
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 343
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebac118e705aa0840800000000000000
+      internalID: 5191142973874752190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_123
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 343
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b5f2eea3f1a4170800000000000000
+      internalID: 8163371612527090573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_124
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 343
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b6b47bf75a9dea0800000000000000
+      internalID: -5847460673209275494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_125
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 343
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ea0063e127b0c40800000000000000
+      internalID: 5479598845706940037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_126
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 328
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4493c8c9a224510800000000000000
+      internalID: 1531833675115218124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_127
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 331
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f04ef227b3c07720800000000000000
+      internalID: 2841986556204302576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_128
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 328
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311fdcf208a88d330800000000000000
+      internalID: 3735888174066299155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_129
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 328
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b72199fbafae330800000000000000
+      internalID: 3741078141298440960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_130
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 328
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387093d65f58ab780800000000000000
+      internalID: -8666467243775162493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_131
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 328
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d284707ee839b50800000000000000
+      internalID: 6598775001938668844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_132
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 328
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae560537ea94d850800000000000000
+      internalID: 6400911288218050213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_133
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 331
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833fead373c266900800000000000000
+      internalID: 677277409735537464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_134
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 328
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f61be982d551e110800000000000000
+      internalID: 1288405331150051056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_135
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 328
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5c0d25e28965000800000000000000
+      internalID: 24374172722447777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_136
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 328
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d205726180d1d7b0800000000000000
+      internalID: -5201146840515018025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_137
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 328
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a405414b8a82102b0800000000000000
+      internalID: -5620166154940821430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_138
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 328
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a36be3512cc60a0800000000000000
+      internalID: -6886916333654099368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_139
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 328
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec8e34f595cbbf30800000000000000
+      internalID: 4592481492872891630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_140
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 328
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0531f88f5b90b03b0800000000000000
+      internalID: -5545327839012777136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_141
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 331
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd5417ebec4982a0800000000000000
+      internalID: -6734767191677968905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_142
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 328
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3313b9cf2b7471c10800000000000000
+      internalID: 2024165391594107187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_143
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 328
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475162a40af2de710800000000000000
+      internalID: 1724086597838050676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_144
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 328
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ec98bfaadfcfe60800000000000000
+      internalID: 7997545949109538417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_145
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 328
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760c9a26383693150800000000000000
+      internalID: 5852818606691827815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_146
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 325
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7552c4863969844d0800000000000000
+      internalID: -3150102379491482281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_147
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 328
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddfb6a862ddaa8c0800000000000000
+      internalID: -3987131362482324014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_148
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 325
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88682360753f3c9d0800000000000000
+      internalID: -2755090991928932728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_149
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 325
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910df617bb86efa20800000000000000
+      internalID: 3098028747948806169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_150
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 325
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856ba98faa0c5cdb0800000000000000
+      internalID: -4772196389581310376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_151
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 325
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c12dece87a913010800000000000000
+      internalID: 1166883622627385792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_152
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 325
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd7de8828460b030800000000000000
+      internalID: 3508414621527408069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_153
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 328
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d578cf88e59c75770800000000000000
+      internalID: 8599563421349611357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_154
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 325
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c24df27ea224e8f0800000000000000
+      internalID: -512246324964539710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_155
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 325
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6666c856109bf0c00800000000000000
+      internalID: 869116668755600998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_156
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 325
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96142e1dff77032d0800000000000000
+      internalID: -3301006586240941719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_157
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 325
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90cdf24beb1d4790800000000000000
+      internalID: -7544343103520522084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_158
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 325
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3de6281dbc194a20800000000000000
+      internalID: 3046998221372452157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_159
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 325
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e06a9061b9ddf7b0800000000000000
+      internalID: -5188751839807774489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_160
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 325
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d225fd08ba7ce6cc0800000000000000
+      internalID: -3715813103118626259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_161
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 328
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d996cd1e705910d30800000000000000
+      internalID: 4395958572376943005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_162
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 325
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9928f0ecdfd2bba40800000000000000
+      internalID: 5384948347558658713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_163
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 325
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a608fd33edd9b2b0800000000000000
+      internalID: -5568175496199928159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_164
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 325
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5a3f4ca8ed78eb0800000000000000
+      internalID: -4717557397056150037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_165
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 325
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e097ecd21aabf10800000000000000
+      internalID: 2286316978953588279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_166
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 167
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01726555546d767f0800000000000000
+      internalID: -619290830467356912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 55
+        width: 175
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3489fe38470fcb00800000000000000
+      internalID: 850906861471892543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_168
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 94
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41713d5434089a70800000000000000
+      internalID: 8833815292035559759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell10
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 54
+        width: 167
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4837e9fd44c45d650800000000000000
+      internalID: 6256991115994362756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell11
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 47
+        width: 191
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8e8f59db8d3d2a0800000000000000
+      internalID: -6713784310702741320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_171
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 46
+        width: 212
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcecbd182f6ea5330800000000000000
+      internalID: 3700523973073424077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_172
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 46
+        width: 226
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f9aa2372be4b9c0800000000000000
+      internalID: -3912243622691823773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_173
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 22
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd7bf74fb7e8bd50800000000000000
+      internalID: 6753402449974492597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_174
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 22
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d666778c8d1ea440800000000000000
+      internalID: 4948925529932064465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_175
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 22
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0628661d5e8f8f370800000000000000
+      internalID: 8356702774530310752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_176
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 22
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38236bdd6a6e92fe0800000000000000
+      internalID: -1213185020240973181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_177
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 22
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9d89f486a6c6240800000000000000
+      internalID: 4786317500232554924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_178
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 22
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b4793d0b22b4a80800000000000000
+      internalID: -8481647330362701014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_179
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 22
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0713b65b3fa116b0800000000000000
+      internalID: -5327284214810077427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_180
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 22
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1999ae486154d3290800000000000000
+      internalID: -7909089407571158639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_181
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 19
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6892b66fc88b9e80800000000000000
+      internalID: -8170786674571044757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_182
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 19
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6550552765794a0800000000000000
+      internalID: -6586700880953387309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_183
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 19
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0493b2eb5b5aec40800000000000000
+      internalID: 5542342741636387852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_184
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 19
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3239e31e67806b330800000000000000
+      internalID: 3726175048373801763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_185
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 19
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04947b1a6a3a4b850800000000000000
+      internalID: 6391913707218618688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_186
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 19
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce31f5916ba37f6d0800000000000000
+      internalID: -2956830076561320980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_187
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 19
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66233d73961c33a30800000000000000
+      internalID: 4193908335664378470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_188
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 19
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c2edc2990589750800000000000000
+      internalID: 6311883496572726317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_189
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 4
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed63abe0391a7fc60800000000000000
+      internalID: 7851922128323098334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_190
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 4
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40825efad22d2a200800000000000000
+      internalID: 189945227969374212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_191
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 7
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec7dc494c6081bf0800000000000000
+      internalID: -353525129368732443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_192
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 4
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7757b473151851530800000000000000
+      internalID: 3825105644341130615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_193
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 4
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3827ccdde42e25c0800000000000000
+      internalID: -4238409595279169477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_194
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 4
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd767f5483f35310800000000000000
+      internalID: 1392724459650448827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_195
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 4
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5787dd4fc41d420f0800000000000000
+      internalID: -1142558276989388683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_196
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 4
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d38da92516aa840800000000000000
+      internalID: 5236104524184698200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_197
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 7
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05680fe07ab7b3560800000000000000
+      internalID: 7294559978897049168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_198
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 4
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628b3d05676e43440800000000000000
+      internalID: 4914806489204635686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_199
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 4
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac71a856ca573120800000000000000
+      internalID: 2393481534907710632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_200
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 4
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff9d8043660c2840800000000000000
+      internalID: 5200538693060632563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_201
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 4
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9427ffdf7b67191d0800000000000000
+      internalID: -3345762515547098551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_202
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 4
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f91912a2c05b7a0800000000000000
+      internalID: -6362165523499606192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_203
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 4
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5041d797dc87df0800000000000000
+      internalID: -182169863235303945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_204
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 7
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a64bfcc74a652f50800000000000000
+      internalID: 6856002864355690145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_205
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 4
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66df05c98daedce0800000000000000
+      internalID: -1378473628700518801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_206
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 4
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a450912304ab70c0800000000000000
+      internalID: -4576884262937013081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_207
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29a6ddf3b1aa8040800000000000000
+      internalID: 4650707359643380015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_208
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8020648542c625790800000000000000
+      internalID: -7542847522536553976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_209
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 4
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5162ab3d2802e20800000000000000
+      internalID: 3323800370872194510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_210
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5866accde551510800000000000000
+      internalID: 1519224751688943045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_211
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d098ccdd6b256730800000000000000
+      internalID: 3991644395589374166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_212
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9e67f0c69ef8a10800000000000000
+      internalID: 1914005016980941225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_213
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98a5b4487518fc10800000000000000
+      internalID: 2087442033579239582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_214
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c19dd38f668c1130800000000000000
+      internalID: 3538851220718195142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_215
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 4
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d99b4f023e259d90800000000000000
+      internalID: -7091711245685122607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_216
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b5057f160f1d390800000000000000
+      internalID: -7795185176449885306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_217
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36efb7d2604479b90800000000000000
+      internalID: -7235239483023819165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_218
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3daf4f58d8d4fa090800000000000000
+      internalID: -8021107141090411821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_219
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057901216031e67c0800000000000000
+      internalID: -4076299695929911472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_220
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c821e768215d6f0800000000000000
+      internalID: -660601401489847248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_221
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 1
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967dfcd9f215b8580800000000000000
+      internalID: -8823869779949398167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_222
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 4
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68e9d1a7aecf07c0800000000000000
+      internalID: -4102833516140959636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_223
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4319106bfe53cef0800000000000000
+      internalID: -89123133875219638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sceris_224
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4e7b83ae570a0f0800000000000000
+      internalID: -1107755859498769154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
