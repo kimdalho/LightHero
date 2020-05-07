@@ -1,0 +1,83 @@
+2020/04/10
+
+
+/////////////////////////////////////////////////////////////////////
+GameScene 1 - PlayerUI - Clear_Panel
+presentPanel안에 있는 Rank_panel을 한칸만 밖으로 꺼낼것.(부모가 Clear_panel이 되게.)
+
+Clear_Panel을 활성화 할것.
+
+/////////////////////////////////////////////////////////////////////
+GameScene 1 - PlayerUI - Clear_Panel - Score_Panel
+Score_Panel 안에 있는 Text의 이름을 Score_Text로 변경.
+
+/////////////////////////////////////////////////////////////////////
+GameScene 1 - PlayerUI - Clear_Panel - image_present의 그림을 반드시 바꿀 것.(임의 이미지)
+이미지는 resource - image - rewardbox
+
+/////////////////////////////////////////////////////////////////////
+DungeonManager.cs에서
+
+30줄 
+public GameObject mainCvs; //추가
+public float Game_Score; //추가
+->몹을 잡고 난뒤의 점수를 Manager에서 관리.
+
+76줄
+mainCvs = GameObject.Find("PlayerUI"); //변경
+-> Panel을 가져와서 사용하기 위해 값을 전역으로 변경.
+
+/////////////////////////////////////////////////////////////////////
+Zombie.cs에서
+
+13줄
+public int point; //추가 
+
+72줄
+point = 100;    //추가
+-> 몹마다 개개인이 가지고 있는 점수를 그 몹이 보유함.
+
+213줄
+DungeonManager.instance.Game_Score += point; //추가
+->게임
+
+/////////////////////////////////////////////////////////////////////
+
+ 
+
+ 
+
+2020/04/19
+
+ 
+
+/////////////////////////////////////////////////////////////////////
+DungeonManager.cs에서
+
+33줄
+public GameObject Clear_Panel; //추가
+/////////////////////////////////////////////////////////////////////
+Zombie.cs에서
+
+184줄
+DungeonManager.instance.DunGeonClear();
+
+
+
+
+
+2020/04/20
+
+ 
+
+/////////////////////////////////////////////////////////////////////
+DungeonManager.cs에서
+
+80줄
+Clear_Panel = mainCvs.transform.Find("Clear_Panel").gameObject; //추가
+
+
+/////////////////////////////////////////////////////////////////////
+LobbyScene에서
+
+empty object로 GameManagerGen을 생성.
