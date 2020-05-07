@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://shootingstar-934e5.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">449321292828</string>
+  <string name="google_storage_bucket" translatable="false">shootingstar-934e5.appspot.com</string>
+  <string name="project_id" translatable="false">shootingstar-934e5</string>
+  <string name="google_api_key" translatable="false">AIzaSyAlg4hN5vrBL953VigQ107cjEzAul00q3A</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAlg4hN5vrBL953VigQ107cjEzAul00q3A</string>
+  <string name="google_app_id" translatable="false">1:449321292828:android:b8366d50deb62624bdfbd9</string>
+  <string name="default_web_client_id" translatable="false">449321292828-qc05ocgao0mhjfoccgbc7teqqcfu4nlf.apps.googleusercontent.com</string>
+</resources>
